@@ -31,9 +31,9 @@
     "node": ">=14"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "4.7.0",
     "@uniswap/v2-core": "1.0.1",
-    "@uniswap/v3-core": "1.0.0",
-    "@openzeppelin/contracts": "4.7.0"
+    "@uniswap/v3-core": "1.0.0"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.4",
@@ -69,5 +69,6 @@
     "prettier:fix": "prettier --write '**/*.ts' && prettier --write '**/*.json'",
     "lint:fix": "yarn prettier:fix && forge fmt",
     "prettier": "prettier --check '**/*.ts' && forge fmt --check"
-  }
+  },
+  "packageManager": "yarn@4.1.1+sha512.ec40d0639bb307441b945d9467139cbb88d14394baac760b52eca038b330d16542d66fef61574271534ace5a200518dabf3b53a85f1f9e4bfa37141b538a9590"
 }
